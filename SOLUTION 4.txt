@@ -1,0 +1,147 @@
+1. []= in pyhton the square bracket denote a LIST .
+----------------------------------------------------------
+2. SPAM=[2,4,6,8,10]
+
+SPAM[0]= 2
+SPAM[4]=10 
+
+A. SPAM[3]= "HELLO"
+
+SPAM= [2,4,6,"HELLO", 8,10]
+
+-----------------------------------------------------------------
+
+3. "3"*2
+'33'
+int('33')
+33
+33/11
+​
+3.0
+int(3.0)
+3
+--------------------------------------------------------------
+QUESTION 4&5
+
+spam
+['a', 'b', 'c', 'd']
+spam[0]
+'a'
+-1
+spam[-1]
+'d'
+:2
+spam[:2]
+['a', 'b']
+
+--------------------------------------------------------------
+
+QUESTION 6:
+
+bacon=[3.14,"cat",11,"cat","True"]
+s=bacon.index("cat)
+s
+
+output=1
+
+
+7. bacon.append("99")
+
+s= [3.14,"cat",11,"cat","True",99] #output
+
+8. s=bacon.remove("cat)
+s= [3.14,11,"cat","True",99]# output
+
+
+
+----------------------------------------------------------------------
+
+9. There are two list concatenation operator ie plus and extend .
+
+list_a= list_b + list_c 
+list a = list_b.extend(list_c)
+
+
+List replication operator :  *
+
+list_a = [1,2,3]
+print (list_a*3)
+
+----------------------------------------------------------------------------
+
+10. 
+
+The difference is that with append, you just add a new entry at the end of the list. With insert(position, new_entry) 
+you can create a new entry exactly in the position you want.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+11
+
+If you need to delete elements based on the index (like the fourth element), you can use the pop() method.
+The remove() method takes a single element as an argument and removes it from the list.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+12.
+
+
+list and string both can be converted into each other .
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
+13.
+
+tuple is immutable while list is mutable .
+----------------------------------------------------------------------------------------------------------
+14.
+
+T=(42,)
+
+print T 
+
+op= 42 
+
+------------------------------------------------------------------------------------------------
+15.
+
+my_tuple = (4, 2, 3, [6, 5])
+
+
+my_tuple[3]= [6,5]  #  taking list as output from tuple 
+
+
+
+my_string = [2,3,4,(1,2,3), 7,8]
+
+my_string[3]= (1,2,3) # taking tuple as output from string 
+
+
+--------------------------------------------------------------------------------------------------------------
+
+16.  variable can contain the memory allocation . 
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+17.  copy is used for copying but it dont copy nested elements but deep copy can copy the nested elements also.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
